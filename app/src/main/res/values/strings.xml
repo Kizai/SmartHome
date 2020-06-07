@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">智能家居</string>
+    <string name="todo">TODO</string>
+    <string name="register">用户注册</string>
+    <string name="lo">登录</string>
+    <string name="us">用户名/邮箱/手机</string>
+    <string name="ps">密码</string>
+    <string name="auto">自动登录</string>
+    <string name="rem">记住密码</string>
+    <string name="plsu">请输入用户名</string>
+    <string name="plse">请输入邮箱</string>
+    <string name="plsp">请输入手机号</string>
+    <string name="plsp1">请输入密码</string>
+    <string name="plsp2">请确认您的密码</string>
+    <string name="re">注册</string>
+    <string name="yzm">请输入验证码</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="znjj">设备</string>
+    <string name="sb">设备</string>
+    <string name="qj">情景</string>
+    <string name="sk">声控</string>
+    <string name="title">智能家居 Smart home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="userq">用户</string>
+    <string name="t">TODO</string>
+    <string name="light">彩灯1</string>
+    <string name="to">TODO</string>
+    <string name="todo11">TODO</string>
+    <string name="movie">影院模式</string>
+    <string name="eat">就餐模式</string>
+    <string name="sleep">睡眠模式</string>
+    <string name="outdoor">离开模式</string>
+    <string name="ulook">TODO</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="retPsw">忘记密码</string>
+    <string name="aaaaa">找回密码</string>
+    <string name="mus">音乐播放器</string>
+    <string name="st">00:00</string>
+    <string name="tot">03:11</string>
+    <string name="btns">播放音乐</string>
+    <string name="pusp">暂停播放</string>
+    <string name="conp">继续播放</string>
+    <string name="exit">退出</string>
+    <string name="todo21">TODO</string>
+    <string name="muspp">音乐播放器</string>
+    <string name="wed">压力太大？点我试试！</string>
+    <string name="ress">识别结果</string>
+</resources>

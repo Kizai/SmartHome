@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login1">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_smarth"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_smarth"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Web"></activity>
+        <activity
+            android:name=".MusicplayActivity"
+            android:screenOrientation="nosensor"></activity>
+        <activity
+            android:name=".Retrievepsw"
+            android:screenOrientation="nosensor"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="screenSize|keyboardHidden|orientation"
+            android:screenOrientation="nosensor"></activity>
+        <activity
+            android:name=".RegisteredActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+    <com.superluo.textbannerlibrary.TextBannerView
+        android:id="@+id/tv_banner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        app:setGravity="center"
+        app:setTextColor="#fff"/>
+
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@id/tv_banner"
+        android:layout_margin="10dp">
+    </com.youth.banner.Banner>
+
+    <com.skyfishjy.library.RippleBackground
+        android:id="@+id/rb_content"
+        android:layout_width="400dp"
+        android:layout_height="600dp"
+        android:layout_below="@id/banner"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/iv_musicPlay"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/musicplay"
+            android:contentDescription="@string/todo21" />
+
+    </com.skyfishjy.library.RippleBackground>
+    </RelativeLayout>
+
+
+</FrameLayout>

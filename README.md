@@ -1,2 +1,2 @@
-# SamrtHome
+# SmartHome
 可以实现注册登录Fragment音乐播放语音识别等功能的一个项目
